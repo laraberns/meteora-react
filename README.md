@@ -1,5 +1,3 @@
-![Meteora](thumbnail.png)
-
 # Meteora - Fashion E-commerce
 
 Meteora is an e-commerce project in the early stages of development. This README provides information about the project, its features, and how to run it in your local environment.
