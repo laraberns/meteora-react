@@ -1,68 +1,39 @@
 ![Meteora](thumbnail.png)
 
-# Meteora - E-commerce de Moda
+# Meteora - Fashion E-commerce
 
-O Meteora é um projeto de e-commerce em fase de desenvolvimento inicial. Este README fornece informações sobre o projeto, suas funcionalidades e como executá-lo em seu ambiente local.
+Meteora is an e-commerce project in the early stages of development. This README provides information about the project, its features, and how to run it in your local environment.
 
-![GIF da aplicação em execução](meteora-app.gif)
+![Application in action GIF](meteora-app.gif)
 
-## 🔨 Funcionalidades do projeto
+## 🔨 Project Features
 
-Neste estágio inicial de desenvolvimento, o Meteora possui as seguintes funcionalidades:
+In this early stage of development, Meteora has the following features:
 
-- Adicionar itens ao carrinho
-- Remover itens do carrinho
-- Visualizar a página do carrinho
-- Deletar itens do carrinho
+- Add items to the cart
+- Remove items from the cart
+- View the cart page
+- Delete items from the cart
 
-O [Figma dessa aplicação você encontra aqui](https://www.figma.com/file/R5ATrWK1nC44Eyeo6XZXlr/Meteora---Context-API?node-id=2386%3A2430&mode=dev).
+You can find the [Figma for this application here](https://www.figma.com/file/R5ATrWK1nC44Eyeo6XZXlr/Meteora---Context-API?node-id=2386%3A2430&mode=dev).
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Techniques and Technologies Used
 
-O projeto Meteora utiliza as seguintes tecnologias e bibliotecas:
+The Meteora project utilizes the following technologies and libraries:
 
-- `React` - Framework JavaScript
-- `Vite` - Build tool para desenvolvimento rápido
-- `JavaScript` - Linguagem de programação principal
-- `Context API` - Para gerenciamento de estado
-- `useReducer` - Para controle de estado
-- `useMemo` - Para otimização de desempenho
-- `Bootstrap` - Framework de design e componentes
+- `React` - JavaScript framework
+- `Vite` - Build tool for rapid development
+- `JavaScript` - Main programming language
+- `Context API` - For state management
+- `useReducer` - For state control
+- `useMemo` - For performance optimization
+- `Bootstrap` - Design and component framework
 
-## 🛠️ Abrir e rodar o projeto
 
-Para executar o projeto Meteora em seu ambiente local, siga estas etapas:
+## 📚 More Project Information
 
-1. Certifique-se de ter o Node.js instalado em sua máquina.
+Meteora is a fictional fashion e-commerce in constant development. This project aims to enhance skills in React and introduce the Context API as a solution for managing global states in a React application.
 
-2. Baixe o repositório do projeto:
+The design and prototype for this project can be found [here](https://www.figma.com/file/R5ATrWK1nC44Eyeo6XZXlr/Meteora---Context-API?node-id=2386%3A2430&mode=dev).
 
-3. Extraia os arquivos para uma pasta de sua preferência.
-
-4. Navegue até a pasta em questão via terminal (cmd):
-
-```bash
-cd repo-meteora
-```
-
-5. Instale as dependências usando o npm:
-
-```bash
-npm install
-```
-
-6. Inicie o projeto localmente:
-
-```bash
-npm run dev
-```
-
-7. Abra seu navegador e acesse a url exibida no seu terminal para visualizar o projeto.
-
-## 📚 Mais informações do projeto
-
-O Meteora é um e-commerce fictício de moda em constante desenvolvimento. Este projeto visa aprimorar as habilidades em React, e apresentar a Context API como uma solução para gerenciamento de estados globais de uma aplicação React.
-
-O design e protótipo deste projeto podem ser encontrados [aqui](https://www.figma.com/file/R5ATrWK1nC44Eyeo6XZXlr/Meteora---Context-API?node-id=2386%3A2430&mode=dev).
-
-Aproveite o desenvolvimento e aprimoramento do Meteora!
+Enjoy the development and improvement of Meteora!

@@ -5,14 +5,7 @@ import Sumario from "@/components/Sumario";
 import ListaProdutosCarrinho from "@/components/ListaProdutosCarrinho";
 import BannerCarrinho from "@/components/BannerCarrinho";
 
-const Carrinho = ({
-  carrinho,
-  adicionarProduto,
-  removerProduto,
-  removerProdutoCarrinho,
-  valorTotalCarrinho,
-  quantidadeProdutos,
-}) => {
+const Carrinho = () => {
   return (
     <>
       <BarraNavegacao />
@@ -28,15 +21,9 @@ const Carrinho = ({
                 Detalhes da compra
               </Titulo>
               <ListaProdutosCarrinho
-                carrinho={carrinho}
-                adicionarProduto={adicionarProduto}
-                removerProduto={removerProduto}
-                removerProdutoCarrinho={removerProdutoCarrinho}
               />
             </div>
             <Sumario
-              valorTotalCarrinho={valorTotalCarrinho}
-              quantidadeProdutos={quantidadeProdutos}
             />
           </div>
         </section>

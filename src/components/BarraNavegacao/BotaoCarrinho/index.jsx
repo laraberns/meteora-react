@@ -2,7 +2,7 @@ import React from "react";
 
 import imagemCarrinho from "/assets/cart.svg";
 
-const BotaoCarrinho = ({ className, quantidadeProdutos }) => {
+const BotaoCarrinho = ({ className, quantidade }) => {
   const classesComuns = "btn ms-3";
 
   return (
@@ -14,8 +14,8 @@ const BotaoCarrinho = ({ className, quantidadeProdutos }) => {
       aria-controls="modalCarrinhoSuspenso"
     >
       <img src={imagemCarrinho} alt="ícone de um carrinho de supermercado" />
-      {quantidadeProdutos !== 0 && (
-        <span className="badge verde-limao">{quantidadeProdutos}</span>
+      {quantidade !== 0 && (
+        <span className="badge verde-limao">{quantidade}</span>
       )}
     </button>
   );
